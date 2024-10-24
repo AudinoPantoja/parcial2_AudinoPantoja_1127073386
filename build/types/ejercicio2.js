@@ -1,0 +1,20 @@
+const numbers = [1, 2, 3, 4, 5];
+const fruits = ['manzana', 'pera', 'uva', 'fresa', 'sandia'];
+const bools = true;
+const tuple = [1, 'uno'];
+numbers.push(6);
+console.log(numbers, '\n');
+numbers.pop();
+console.log(numbers, '\n');
+const index3 = numbers.indexOf(3);
+console.log('el 3 esta en el indice: ', index3, '\n');
+const slice = numbers.slice(2, 4);
+console.log('Extrayendo ', slice);
+const filter = numbers.filter(num => num % 2);
+console.log(filter);
+const cadena = 'Este es un nuevo mundo';
+const cadenaDividida = cadena.split(' ');
+console.log('Cadena dividida: ', cadenaDividida);
+const unirCadena = cadenaDividida.join(',');
+console.log('Cadena unida: ', unirCadena);
+//# sourceMappingURL=ejercicio2.js.map

@@ -43,7 +43,7 @@ console.log('Numeros mayores a 40: ', may40)
 const array1: number[]= [1,2,3]
 const array2: number[]= [4,5,6]
 
-const combinatedArray = array1.push(...array2)
+const combinatedArray: number[] = array1.concat(array2);
 console.log('Array combinado: ', combinatedArray)
 
 //13
@@ -53,6 +53,5 @@ console.log('Array ordenado: ',orderArray)
 
 //14
 const arrayString: string[]= ['Fernando', 'Luis', 'Carlos', 'Andres'];
-const orderString = arrayString.push
 
-//
+

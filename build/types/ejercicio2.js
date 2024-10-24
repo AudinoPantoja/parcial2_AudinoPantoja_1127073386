@@ -17,4 +17,7 @@ const cadenaDividida = cadena.split(' ');
 console.log('Cadena dividida: ', cadenaDividida);
 const unirCadena = cadenaDividida.join(',');
 console.log('Cadena unida: ', unirCadena);
+const number2 = [10, 20, 30, 40, 50];
+const filteredMay25 = number2.filter((num) => num > 25);
+console.log(filteredMay25);
 //# sourceMappingURL=ejercicio2.js.map
